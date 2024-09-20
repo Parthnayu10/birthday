@@ -1,0 +1,154 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cover section styling */
+.card-cover {
+    background: url('couple-8435096_1920.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-cover h1 {
+    font-size: 3.5rem; /* Slightly larger for emphasis */
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+
+.card-cover button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded for a more modern look */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Added subtle shadow */
+}
+
+.card-cover button:hover {
+    background-color: #ff1493;
+}
+
+/* Inside card styling */
+.card-inside {
+    background-color: white;
+    padding: 40px; /* Increased padding for a more spacious layout */
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased shadow for depth */
+}
+
+/* Message section */
+.message {
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #fff0f5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+    color: #333;
+    line-height: 1.8; /* Improved line spacing */
+}
+
+.message h2 {
+    font-size: 2.4rem;
+    color: #ff69b4;
+    margin-bottom: 25px;
+}
+
+.message p {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    text-align: left;
+    color: #4b0082;
+}
+
+.message p:last-of-type {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ff1493;
+}
+
+.message .closing {
+    font-style: italic;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 1.3rem;
+    color: #ff69b4;
+}
+
+.message .closing span {
+    font-weight: bold;
+}
+
+/* Carousel styling */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto; /* Increased margin for better spacing */
+}
+
+.carousel-img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    padding: 15px; /* Increased button size */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Music player styling */
+.music-player button {
+    padding: 12px 25px;
+    font-size: 1.3rem;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.music-player button:hover {
+    background-color: #ff1493;
+}
